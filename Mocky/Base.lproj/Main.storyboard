@@ -795,10 +795,10 @@
             </objects>
             <point key="canvasLocation" x="-540" y="645"/>
         </scene>
-        <!--View Controller-->
+        <!--Route Detail View Controller-->
         <scene sceneID="5FL-m6-1ep">
             <objects>
-                <viewController id="9MG-BH-KyO" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RouteDetailViewControllerID" id="9MG-BH-KyO" customClass="RouteDetailViewController" customModule="Mocky" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="CiU-fk-wy3">
                         <rect key="frame" x="0.0" y="0.0" width="800" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>

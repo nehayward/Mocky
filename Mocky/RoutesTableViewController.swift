@@ -14,6 +14,7 @@ protocol RoutesTableViewControllerDelegate {
 
 class RoutesTableViewController: NSViewController {
     
+    var delegate: RoutesTableViewControllerDelegate?
     
     let tableViewData = [1,2,3,4,5,5,6,6]
     let tableView = NSTableView(frame:NSMakeRect(0, 0, 364, 200))
@@ -23,6 +24,10 @@ class RoutesTableViewController: NSViewController {
         view.window?.minSize = NSSize(width: 200, height: 400)
         
         
+        let storyboard = NSStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateController(withIdentifier: "RouteDetailViewControllerID") as! RouteDetailViewController
+
+        delegate = vc
         
         let tableContainer = NSScrollView()
         let column1 = NSTableColumn(identifier: NSUserInterfaceItemIdentifier(rawValue: "Standard"))
@@ -56,6 +61,7 @@ class RoutesTableViewController: NSViewController {
     @objc private func onItemClicked() {
         print("row \(tableView.clickedRow), col \(tableView.clickedColumn) clicked")
         
+        delegate?.hello()
         
     }
 }

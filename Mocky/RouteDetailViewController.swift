@@ -8,7 +8,13 @@
 
 import Cocoa
 
-class RouteDetailViewController: NSViewController {
+class RouteDetailViewController: NSViewController, RoutesTableViewControllerDelegate {
+    
+    func hello() {
+     
+        
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

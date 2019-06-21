@@ -10,6 +10,7 @@
 		0151DD2B22BC48ED006B660C /* ToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0151DD2A22BC48ED006B660C /* ToolBar.swift */; };
 		015AFCE522BD48E4001BE62D /* RoutesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015AFCE422BD48E4001BE62D /* RoutesTableViewController.swift */; };
 		015AFCE722BD6FA3001BE62D /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015AFCE622BD6FA3001BE62D /* SplitViewController.swift */; };
+		015AFCEA22BD7264001BE62D /* RouteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015AFCE822BD7264001BE62D /* RouteDetailViewController.swift */; };
 		0166DE1A22B2FEBF008E23BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166DE1922B2FEBF008E23BC /* AppDelegate.swift */; };
 		0166DE1C22B2FEBF008E23BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166DE1B22B2FEBF008E23BC /* ViewController.swift */; };
 		0166DE1E22B2FEBF008E23BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0166DE1D22B2FEBF008E23BC /* Assets.xcassets */; };
@@ -64,6 +65,7 @@
 		0151DD2A22BC48ED006B660C /* ToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBar.swift; sourceTree = "<group>"; };
 		015AFCE422BD48E4001BE62D /* RoutesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesTableViewController.swift; sourceTree = "<group>"; };
 		015AFCE622BD6FA3001BE62D /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		015AFCE822BD7264001BE62D /* RouteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailViewController.swift; sourceTree = "<group>"; };
 		0166DE1622B2FEBF008E23BC /* Mocky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mocky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0166DE1922B2FEBF008E23BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0166DE1B22B2FEBF008E23BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,14 +122,15 @@
 		0166DE1822B2FEBF008E23BC /* Mocky */ = {
 			isa = PBXGroup;
 			children = (
+				0178980722BD369F00C5BE14 /* Certs */,
+				0178980822BD36AD00C5BE14 /* Mock Data */,
 				0166DE1922B2FEBF008E23BC /* AppDelegate.swift */,
 				0151DD2A22BC48ED006B660C /* ToolBar.swift */,
 				0166DE1B22B2FEBF008E23BC /* ViewController.swift */,
+				015AFCE822BD7264001BE62D /* RouteDetailViewController.swift */,
 				015AFCE622BD6FA3001BE62D /* SplitViewController.swift */,
 				015AFCE422BD48E4001BE62D /* RoutesTableViewController.swift */,
 				0166DE3B22B2FF02008E23BC /* MockServer.swift */,
-				0178980722BD369F00C5BE14 /* Certs */,
-				0178980822BD36AD00C5BE14 /* Mock Data */,
 				0166DE1D22B2FEBF008E23BC /* Assets.xcassets */,
 				0166DE1F22B2FEBF008E23BC /* Main.storyboard */,
 				0166DE2222B2FEBF008E23BC /* Info.plist */,
@@ -255,6 +258,7 @@
 				0166DE3C22B2FF02008E23BC /* MockServer.swift in Sources */,
 				0166DE1C22B2FEBF008E23BC /* ViewController.swift in Sources */,
 				0166DE1A22B2FEBF008E23BC /* AppDelegate.swift in Sources */,
+				015AFCEA22BD7264001BE62D /* RouteDetailViewController.swift in Sources */,
 				0151DD2B22BC48ED006B660C /* ToolBar.swift in Sources */,
 				015AFCE522BD48E4001BE62D /* RoutesTableViewController.swift in Sources */,
 				015AFCE722BD6FA3001BE62D /* SplitViewController.swift in Sources */,
