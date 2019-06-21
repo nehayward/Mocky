@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0151DD2B22BC48ED006B660C /* ToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0151DD2A22BC48ED006B660C /* ToolBar.swift */; };
+		0166DE1A22B2FEBF008E23BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166DE1922B2FEBF008E23BC /* AppDelegate.swift */; };
+		0166DE1C22B2FEBF008E23BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166DE1B22B2FEBF008E23BC /* ViewController.swift */; };
+		0166DE1E22B2FEBF008E23BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0166DE1D22B2FEBF008E23BC /* Assets.xcassets */; };
+		0166DE2122B2FEBF008E23BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0166DE1F22B2FEBF008E23BC /* Main.storyboard */; };
+		0166DE3C22B2FF02008E23BC /* MockServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166DE3B22B2FF02008E23BC /* MockServer.swift */; };
+		0166DE4322B3004A008E23BC /* ca-crt.der in Resources */ = {isa = PBXBuildFile; fileRef = 0166DE3D22B2FF2A008E23BC /* ca-crt.der */; };
+		0166DE4922B302C5008E23BC /* localhost.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 0166DE4822B302C5008E23BC /* localhost.p12 */; };
+		0166DE4B22B30455008E23BC /* Configuration.json in Resources */ = {isa = PBXBuildFile; fileRef = 0166DE4A22B30454008E23BC /* Configuration.json */; };
+		0166DE4D22B30458008E23BC /* Guests.json in Resources */ = {isa = PBXBuildFile; fileRef = 0166DE4C22B30458008E23BC /* Guests.json */; };
+		0166DE4F22B3045B008E23BC /* Information.json in Resources */ = {isa = PBXBuildFile; fileRef = 0166DE4E22B3045B008E23BC /* Information.json */; };
+		0166DE5122B3045F008E23BC /* Staff.json in Resources */ = {isa = PBXBuildFile; fileRef = 0166DE5022B3045F008E23BC /* Staff.json */; };
+		01ECEA6122BD385100027DD8 /* Telegraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01ECEA5E22BD385100027DD8 /* Telegraph.framework */; };
+		01ECEA6222BD385100027DD8 /* Telegraph.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01ECEA5E22BD385100027DD8 /* Telegraph.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		01ECEA6322BD385100027DD8 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01ECEA5F22BD385100027DD8 /* CocoaAsyncSocket.framework */; };
+		01ECEA6422BD385100027DD8 /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01ECEA5F22BD385100027DD8 /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		01ECEA6522BD385100027DD8 /* HTTPParserC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01ECEA6022BD385100027DD8 /* HTTPParserC.framework */; };
+		01ECEA6622BD385100027DD8 /* HTTPParserC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01ECEA6022BD385100027DD8 /* HTTPParserC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		01ECEA6A22BD386500027DD8 /* CocoaAsyncSocket.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 01ECEA6722BD386400027DD8 /* CocoaAsyncSocket.framework.dSYM */; };
+		01ECEA6B22BD386500027DD8 /* HTTPParserC.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 01ECEA6822BD386500027DD8 /* HTTPParserC.framework.dSYM */; };
+		01ECEA6C22BD386500027DD8 /* Telegraph.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 01ECEA6922BD386500027DD8 /* Telegraph.framework.dSYM */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0166DE3422B2FEDD008E23BC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				01ECEA6A22BD386500027DD8 /* CocoaAsyncSocket.framework.dSYM in CopyFiles */,
+				01ECEA6B22BD386500027DD8 /* HTTPParserC.framework.dSYM in CopyFiles */,
+				01ECEA6C22BD386500027DD8 /* Telegraph.framework.dSYM in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0178981522BD376F00C5BE14 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				01ECEA6422BD385100027DD8 /* CocoaAsyncSocket.framework in Embed Frameworks */,
+				01ECEA6222BD385100027DD8 /* Telegraph.framework in Embed Frameworks */,
+				01ECEA6622BD385100027DD8 /* HTTPParserC.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0151DD2A22BC48ED006B660C /* ToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBar.swift; sourceTree = "<group>"; };
+		0166DE1622B2FEBF008E23BC /* Mocky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mocky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0166DE1922B2FEBF008E23BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0166DE1B22B2FEBF008E23BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0166DE1D22B2FEBF008E23BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0166DE2022B2FEBF008E23BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0166DE2222B2FEBF008E23BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0166DE2322B2FEBF008E23BC /* Mocky.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mocky.entitlements; sourceTree = "<group>"; };
+		0166DE3B22B2FF02008E23BC /* MockServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServer.swift; sourceTree = "<group>"; };
+		0166DE3D22B2FF2A008E23BC /* ca-crt.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ca-crt.der"; sourceTree = "<group>"; };
+		0166DE4822B302C5008E23BC /* localhost.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = localhost.p12; sourceTree = "<group>"; };
+		0166DE4A22B30454008E23BC /* Configuration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Configuration.json; sourceTree = "<group>"; };
+		0166DE4C22B30458008E23BC /* Guests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Guests.json; sourceTree = "<group>"; };
+		0166DE4E22B3045B008E23BC /* Information.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Information.json; sourceTree = "<group>"; };
+		0166DE5022B3045F008E23BC /* Staff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Staff.json; sourceTree = "<group>"; };
+		01ECEA5E22BD385100027DD8 /* Telegraph.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Telegraph.framework; path = Carthage/Build/Mac/Telegraph.framework; sourceTree = "<group>"; };
+		01ECEA5F22BD385100027DD8 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/Mac/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		01ECEA6022BD385100027DD8 /* HTTPParserC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HTTPParserC.framework; path = Carthage/Build/Mac/HTTPParserC.framework; sourceTree = "<group>"; };
+		01ECEA6722BD386400027DD8 /* CocoaAsyncSocket.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = CocoaAsyncSocket.framework.dSYM; path = Carthage/Build/Mac/CocoaAsyncSocket.framework.dSYM; sourceTree = "<group>"; };
+		01ECEA6822BD386500027DD8 /* HTTPParserC.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = HTTPParserC.framework.dSYM; path = Carthage/Build/Mac/HTTPParserC.framework.dSYM; sourceTree = "<group>"; };
+		01ECEA6922BD386500027DD8 /* Telegraph.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Telegraph.framework.dSYM; path = Carthage/Build/Mac/Telegraph.framework.dSYM; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0166DE1322B2FEBF008E23BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01ECEA6322BD385100027DD8 /* CocoaAsyncSocket.framework in Frameworks */,
+				01ECEA6122BD385100027DD8 /* Telegraph.framework in Frameworks */,
+				01ECEA6522BD385100027DD8 /* HTTPParserC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0166DE0D22B2FEBF008E23BC = {
+			isa = PBXGroup;
+			children = (
+				0166DE1822B2FEBF008E23BC /* Mocky */,
+				0166DE1722B2FEBF008E23BC /* Products */,
+				01ECEA5D22BD385100027DD8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0166DE1722B2FEBF008E23BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0166DE1622B2FEBF008E23BC /* Mocky.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0166DE1822B2FEBF008E23BC /* Mocky */ = {
+			isa = PBXGroup;
+			children = (
+				0166DE1922B2FEBF008E23BC /* AppDelegate.swift */,
+				0151DD2A22BC48ED006B660C /* ToolBar.swift */,
+				0166DE1B22B2FEBF008E23BC /* ViewController.swift */,
+				0166DE3B22B2FF02008E23BC /* MockServer.swift */,
+				0178980722BD369F00C5BE14 /* Certs */,
+				0178980822BD36AD00C5BE14 /* Mock Data */,
+				0166DE1D22B2FEBF008E23BC /* Assets.xcassets */,
+				0166DE1F22B2FEBF008E23BC /* Main.storyboard */,
+				0166DE2222B2FEBF008E23BC /* Info.plist */,
+				0166DE2322B2FEBF008E23BC /* Mocky.entitlements */,
+			);
+			path = Mocky;
+			sourceTree = "<group>";
+		};
+		0178980722BD369F00C5BE14 /* Certs */ = {
+			isa = PBXGroup;
+			children = (
+				0166DE3D22B2FF2A008E23BC /* ca-crt.der */,
+				0166DE4822B302C5008E23BC /* localhost.p12 */,
+			);
+			path = Certs;
+			sourceTree = "<group>";
+		};
+		0178980822BD36AD00C5BE14 /* Mock Data */ = {
+			isa = PBXGroup;
+			children = (
+				0166DE4A22B30454008E23BC /* Configuration.json */,
+				0166DE4C22B30458008E23BC /* Guests.json */,
+				0166DE4E22B3045B008E23BC /* Information.json */,
+				0166DE5022B3045F008E23BC /* Staff.json */,
+			);
+			path = "Mock Data";
+			sourceTree = "<group>";
+		};
+		01ECEA5D22BD385100027DD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01ECEA6722BD386400027DD8 /* CocoaAsyncSocket.framework.dSYM */,
+				01ECEA6822BD386500027DD8 /* HTTPParserC.framework.dSYM */,
+				01ECEA6922BD386500027DD8 /* Telegraph.framework.dSYM */,
+				01ECEA5F22BD385100027DD8 /* CocoaAsyncSocket.framework */,
+				01ECEA6022BD385100027DD8 /* HTTPParserC.framework */,
+				01ECEA5E22BD385100027DD8 /* Telegraph.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0166DE1522B2FEBF008E23BC /* Mocky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0166DE2622B2FEBF008E23BC /* Build configuration list for PBXNativeTarget "Mocky" */;
+			buildPhases = (
+				0166DE1222B2FEBF008E23BC /* Sources */,
+				0166DE1322B2FEBF008E23BC /* Frameworks */,
+				0166DE1422B2FEBF008E23BC /* Resources */,
+				0166DE3422B2FEDD008E23BC /* CopyFiles */,
+				0178981522BD376F00C5BE14 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mocky;
+			productName = Mocky;
+			productReference = 0166DE1622B2FEBF008E23BC /* Mocky.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0166DE0E22B2FEBF008E23BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Nick Hayward";
+				TargetAttributes = {
+					0166DE1522B2FEBF008E23BC = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0166DE1122B2FEBF008E23BC /* Build configuration list for PBXProject "Mocky" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0166DE0D22B2FEBF008E23BC;
+			productRefGroup = 0166DE1722B2FEBF008E23BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0166DE1522B2FEBF008E23BC /* Mocky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0166DE1422B2FEBF008E23BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0166DE1E22B2FEBF008E23BC /* Assets.xcassets in Resources */,
+				0166DE4322B3004A008E23BC /* ca-crt.der in Resources */,
+				0166DE4922B302C5008E23BC /* localhost.p12 in Resources */,
+				0166DE4B22B30455008E23BC /* Configuration.json in Resources */,
+				0166DE4D22B30458008E23BC /* Guests.json in Resources */,
+				0166DE5122B3045F008E23BC /* Staff.json in Resources */,
+				0166DE4F22B3045B008E23BC /* Information.json in Resources */,
+				0166DE2122B2FEBF008E23BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0166DE1222B2FEBF008E23BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0166DE3C22B2FF02008E23BC /* MockServer.swift in Sources */,
+				0166DE1C22B2FEBF008E23BC /* ViewController.swift in Sources */,
+				0166DE1A22B2FEBF008E23BC /* AppDelegate.swift in Sources */,
+				0151DD2B22BC48ED006B660C /* ToolBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0166DE1F22B2FEBF008E23BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0166DE2022B2FEBF008E23BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0166DE2422B2FEBF008E23BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0166DE2522B2FEBF008E23BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0166DE2722B2FEBF008E23BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mocky/Mocky.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CU49YR9KXZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = Mocky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.Mocky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0166DE2822B2FEBF008E23BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mocky/Mocky.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CU49YR9KXZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = Mocky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.Mocky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0166DE1122B2FEBF008E23BC /* Build configuration list for PBXProject "Mocky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0166DE2422B2FEBF008E23BC /* Debug */,
+				0166DE2522B2FEBF008E23BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0166DE2622B2FEBF008E23BC /* Build configuration list for PBXNativeTarget "Mocky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0166DE2722B2FEBF008E23BC /* Debug */,
+				0166DE2822B2FEBF008E23BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0166DE0E22B2FEBF008E23BC /* Project object */;
+}

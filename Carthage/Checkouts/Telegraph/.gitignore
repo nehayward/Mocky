@@ -1,0 +1,32 @@
+# OSX
+.DS_Store
+.Trashes
+*.swp
+*.lock
+
+# Xcode
+build/
+DerivedData/
+xcuserdata
+*.xccheckout
+
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+
+# Carthage
+Carthage/
+
+# Third party tools
+.idea/
+FauxPasConfig/
+
+# Exceptions
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+!Podfile.lock
+!Pods/Manifest.lock

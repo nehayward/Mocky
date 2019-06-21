@@ -1,0 +1,938 @@
+{
+    "guests": [
+        {
+            "advisories": [
+                {
+                    "advisoryType": 3,
+                    "flightNumber": 2,
+                    "passengerId": "C1E43E4E0001",
+                    "recordLocator": "IPBNPL",
+                    "passengerName": "Bao, Vincent",
+                    "resultCode": 314,
+                    "title": "Guest Not Checked In",
+                    "message": "",
+                    "verification": null
+                }
+            ],
+            "thruVerification": null,
+            "editCodes": null,
+            "onboardCompanionSeats": null,
+            "sortBy": {
+                "elite": 4
+            },
+            "firstName": "VINCENT",
+            "lastName": "BAO",
+            "seatAssignment": null,
+            "destinationCityCode": "DCA",
+            "groupCode": "AD2",
+            "inboundFlightInformation": null,
+            "boardingStatus": 0,
+            "atAirport": false,
+            "eliteStatus": null,
+            "passengerId": "C1E43E4E0001",
+            "boardingAcceptability": 2,
+            "recordLocator": "IPBNPL",
+            "recordNameAssociatedId": "1",
+            "displayName": "Bao, Vincent",
+            "segments": [
+                {
+                    "airline": "AS",
+                    "destination": "DCA",
+                    "flight": "2",
+                    "origin": "SEA",
+                    "localDepartureDateTime": "2019-06-13T13:45:00",
+                    "passengerId": "C1E43E4E0001",
+                    "segmentStatus": "MM",
+                    "segmentNumber": 1
+                }
+            ]
+        },
+        {
+            "advisories": [
+                {
+                    "advisoryType": 3,
+                    "flightNumber": 2,
+                    "passengerId": "C1E43E4E0002",
+                    "recordLocator": "IPBNPL",
+                    "passengerName": "Bao, Alex",
+                    "resultCode": 314,
+                    "title": "Guest Not Checked In",
+                    "message": "",
+                    "verification": null
+                }
+            ],
+            "thruVerification": null,
+            "editCodes": null,
+            "onboardCompanionSeats": null,
+            "sortBy": {
+                "elite": 4
+            },
+            "firstName": "ALEX",
+            "lastName": "BAO",
+            "seatAssignment": null,
+            "destinationCityCode": "DCA",
+            "groupCode": "AD2",
+            "inboundFlightInformation": null,
+            "boardingStatus": 0,
+            "atAirport": false,
+            "eliteStatus": null,
+            "passengerId": "C1E43E4E0002",
+            "boardingAcceptability": 2,
+            "recordLocator": "IPBNPL",
+            "recordNameAssociatedId": "2",
+            "displayName": "Bao, Alex",
+            "segments": [
+                {
+                    "airline": "AS",
+                    "destination": "DCA",
+                    "flight": "2",
+                    "origin": "SEA",
+                    "localDepartureDateTime": "2019-06-13T13:45:00",
+                    "passengerId": "C1E43E4E0002",
+                    "segmentStatus": "MM",
+                    "segmentNumber": 1
+                }
+            ]
+        },
+        {
+            "advisories": [
+                {
+                    "advisoryType": 3,
+                    "flightNumber": 2,
+                    "passengerId": "C1E43DC30001",
+                    "recordLocator": "IPBNXH",
+                    "passengerName": "Bing, Sandra",
+                    "resultCode": 314,
+                    "title": "Guest Not Checked In",
+                    "message": "",
+                    "verification": null
+                }
+            ],
+            "thruVerification": null,
+            "editCodes": null,
+            "onboardCompanionSeats": null,
+            "sortBy": {
+                "elite": 4
+            },
+            "firstName": "SANDRA",
+            "lastName": "BING",
+            "seatAssignment": null,
+            "destinationCityCode": "DCA",
+            "groupCode": "AC2",
+            "inboundFlightInformation": null,
+            "boardingStatus": 0,
+            "atAirport": false,
+            "eliteStatus": null,
+            "passengerId": "C1E43DC30001",
+            "boardingAcceptability": 2,
+            "recordLocator": "IPBNXH",
+            "recordNameAssociatedId": "1",
+            "displayName": "Bing, Sandra",
+            "segments": [
+                {
+                    "airline": "AS",
+                    "destination": "DCA",
+                    "flight": "2",
+                    "origin": "SEA",
+                    "localDepartureDateTime": "2019-06-13T13:45:00",
+                    "passengerId": "C1E43DC30001",
+                    "segmentStatus": "MM",
+                    "segmentNumber": 1
+                }
+            ]
+        },
+        {
+            "advisories": [
+                {
+                    "advisoryType": 3,
+                    "flightNumber": 2,
+                    "passengerId": "C1E43DC30002",
+                    "recordLocator": "IPBNXH",
+                    "passengerName": "Bing, Ralph",
+                    "resultCode": 314,
+                    "title": "Guest Not Checked In",
+                    "message": "",
+                    "verification": null
+                }
+            ],
+            "thruVerification": null,
+            "editCodes": null,
+            "onboardCompanionSeats": null,
+            "sortBy": {
+                "elite": 4
+            },
+            "firstName": "RALPH",
+            "lastName": "BING",
+            "seatAssignment": null,
+            "destinationCityCode": "DCA",
+            "groupCode": "AC2",
+            "inboundFlightInformation": null,
+            "boardingStatus": 0,
+            "atAirport": false,
+            "eliteStatus": null,
+            "passengerId": "C1E43DC30002",
+            "boardingAcceptability": 2,
+            "recordLocator": "IPBNXH",
+            "recordNameAssociatedId": "2",
+            "displayName": "Bing, Ralph",
+            "segments": [
+                {
+                    "airline": "AS",
+                    "destination": "DCA",
+                    "flight": "2",
+                    "origin": "SEA",
+                    "localDepartureDateTime": "2019-06-13T13:45:00",
+                    "passengerId": "C1E43DC30002",
+                    "segmentStatus": "MM",
+                    "segmentNumber": 1
+                }
+            ]
+        },
+        {
+            "advisories": [
+                {
+                    "advisoryType": 3,
+                    "flightNumber": 2,
+                    "passengerId": "C29966C10001",
+                    "recordLocator": "GKZSGE",
+                    "passengerName": "Hollander, Jason",
+                    "resultCode": 314,
+                    "title": "Guest Not Checked In",
+                    "message": "",
+                    "verification": null
+                }
+            ],
+            "thruVerification": null,
+            "editCodes": null,
+            "onboardCompanionSeats": null,
+            "sortBy": {
+                "elite": 4
+            },
+            "firstName": "JASON",
+            "lastName": "HOLLANDER",
+            "seatAssignment": null,
+            "destinationCityCode": "DCA",
+            "groupCode": null,
+            "inboundFlightInformation": null,
+            "boardingStatus": 0,
+            "atAirport": false,
+            "eliteStatus": null,
+            "passengerId": "C29966C10001",
+            "boardingAcceptability": 2,
+            "recordLocator": "GKZSGE",
+            "recordNameAssociatedId": "1",
+            "displayName": "Hollander, Jason",
+            "segments": [
+                {
+                    "airline": "AS",
+                    "destination": "DCA",
+                    "flight": "2",
+                    "origin": "SEA",
+                    "localDepartureDateTime": "2019-06-13T13:45:00",
+                    "passengerId": "C29966C10001",
+                    "segmentStatus": "MM",
+                    "segmentNumber": 1
+                }
+            ]
+        },
+        {
+            "advisories": [
+                {
+                    "advisoryType": 3,
+                    "flightNumber": 2,
+                    "passengerId": "C29966CE0001",
+                    "recordLocator": "GKZTHI",
+                    "passengerName": "Hollander, Jason",
+                    "resultCode": 314,
+                    "title": "Guest Not Checked In",
+                    "message": "",
+                    "verification": null
+                }
+            ],
+            "thruVerification": null,
+            "editCodes": null,
+            "onboardCompanionSeats": null,
+            "sortBy": {
+                "elite": 4
+            },
+            "firstName": "JASON",
+            "lastName": "HOLLANDER",
+            "seatAssignment": null,
+            "destinationCityCode": "DCA",
+            "groupCode": null,
+            "inboundFlightInformation": null,
+            "boardingStatus": 0,
+            "atAirport": true,
+            "eliteStatus": null,
+            "passengerId": "C29966CE0001",
+            "boardingAcceptability": 2,
+            "recordLocator": "GKZTHI",
+            "recordNameAssociatedId": "1",
+            "displayName": "Hollander, Jason",
+            "segments": [
+                {
+                    "airline": "AS",
+                    "destination": "DCA",
+                    "flight": "2",
+                    "origin": "SEA",
+                    "localDepartureDateTime": "2019-06-13T13:45:00",
+                    "passengerId": "C29966CE0001",
+                    "segmentStatus": "MM",
+                    "segmentNumber": 1
+                }
+            ]
+        },
+        {
+            "advisories": [
+                {
+                    "advisoryType": 3,
+                    "flightNumber": 2,
+                    "passengerId": "C2996E7F0001",
+                    "recordLocator": "JGOGGM",
+                    "passengerName": "Long, Anthony",
+                    "resultCode": 314,
+                    "title": "Guest Not Checked In",
+                    "message": "",
+                    "verification": null
+                }
+            ],
+            "thruVerification": null,
+            "editCodes": null,
+            "onboardCompanionSeats": null,
+            "sortBy": {
+                "elite": 4
+            },
+            "firstName": "ANTHONY",
+            "lastName": "LONG",
+            "seatAssignment": null,
+            "destinationCityCode": "DCA",
+            "groupCode": null,
+            "inboundFlightInformation": null,
+            "boardingStatus": 0,
+            "atAirport": true,
+            "eliteStatus": null,
+            "passengerId": "C2996E7F0001",
+            "boardingAcceptability": 2,
+            "recordLocator": "JGOGGM",
+            "recordNameAssociatedId": "1",
+            "displayName": "Long, Anthony",
+            "segments": [
+                {
+                    "airline": "AS",
+                    "destination": "DCA",
+                    "flight": "2",
+                    "origin": "SEA",
+                    "localDepartureDateTime": "2019-06-13T13:45:00",
+                    "passengerId": "C2996E7F0001",
+                    "segmentStatus": "MM",
+                    "segmentNumber": 1
+                }
+            ]
+        },
+        {
+            "advisories": [],
+            "thruVerification": null,
+            "editCodes": null,
+            "onboardCompanionSeats": null,
+            "sortBy": {
+                "elite": 4
+            },
+            "firstName": "PATRICK",
+            "lastName": "MONCRET",
+            "seatAssignment": "11A",
+            "destinationCityCode": "DCA",
+            "groupCode": null,
+            "inboundFlightInformation": null,
+            "boardingStatus": 2,
+            "atAirport": true,
+            "eliteStatus": null,
+            "passengerId": "C261CECB0001",
+            "boardingAcceptability": 0,
+            "recordLocator": "GEXTZU",
+            "recordNameAssociatedId": "1",
+            "displayName": "Moncret, Patrick",
+            "segments": [
+                {
+                    "airline": "AS",
+                    "destination": "DCA",
+                    "flight": "2",
+                    "origin": "SEA",
+                    "localDepartureDateTime": "2019-06-13T13:45:00",
+                    "passengerId": "C261CECB0001",
+                    "segmentStatus": "HK",
+                    "segmentNumber": 1
+                }
+            ]
+        },
+        {
+            "advisories": [
+                {
+                    "advisoryType": 3,
+                    "flightNumber": 2,
+                    "passengerId": "C1E43EC40001",
+                    "recordLocator": "IPBPQO",
+                    "passengerName": "Payne, Nick",
+                    "resultCode": 314,
+                    "title": "Guest Not Checked In",
+                    "message": "",
+                    "verification": null
+                }
+            ],
+            "thruVerification": null,
+            "editCodes": null,
+            "onboardCompanionSeats": null,
+            "sortBy": {
+                "elite": 4
+            },
+            "firstName": "NICK",
+            "lastName": "PAYNE",
+            "seatAssignment": null,
+            "destinationCityCode": "DCA",
+            "groupCode": "AE2",
+            "inboundFlightInformation": null,
+            "boardingStatus": 0,
+            "atAirport": false,
+            "eliteStatus": null,
+            "passengerId": "C1E43EC40001",
+            "boardingAcceptability": 2,
+            "recordLocator": "IPBPQO",
+            "recordNameAssociatedId": "1",
+            "displayName": "Payne, Nick",
+            "segments": [
+                {
+                    "airline": "AS",
+                    "destination": "DCA",
+                    "flight": "2",
+                    "origin": "SEA",
+                    "localDepartureDateTime": "2019-06-13T13:45:00",
+                    "passengerId": "C1E43EC40001",
+                    "segmentStatus": "MM",
+                    "segmentNumber": 1
+                }
+            ]
+        },
+        {
+            "advisories": [
+                {
+                    "advisoryType": 3,
+                    "flightNumber": 2,
+                    "passengerId": "C1E43EC40002",
+                    "recordLocator": "IPBPQO",
+                    "passengerName": "Payne, Jennifer",
+                    "resultCode": 314,
+                    "title": "Guest Not Checked In",
+                    "message": "",
+                    "verification": null
+                }
+            ],
+            "thruVerification": null,
+            "editCodes": null,
+            "onboardCompanionSeats": null,
+            "sortBy": {
+                "elite": 4
+            },
+            "firstName": "JENNIFER",
+            "lastName": "PAYNE",
+            "seatAssignment": null,
+            "destinationCityCode": "DCA",
+            "groupCode": "AE2",
+            "inboundFlightInformation": null,
+            "boardingStatus": 0,
+            "atAirport": false,
+            "eliteStatus": null,
+            "passengerId": "C1E43EC40002",
+            "boardingAcceptability": 2,
+            "recordLocator": "IPBPQO",
+            "recordNameAssociatedId": "2",
+            "displayName": "Payne, Jennifer",
+            "segments": [
+                {
+                    "airline": "AS",
+                    "destination": "DCA",
+                    "flight": "2",
+                    "origin": "SEA",
+                    "localDepartureDateTime": "2019-06-13T13:45:00",
+                    "passengerId": "C1E43EC40002",
+                    "segmentStatus": "MM",
+                    "segmentNumber": 1
+                }
+            ]
+        },
+        {
+            "advisories": [
+                {
+                    "advisoryType": 2,
+                    "flightNumber": 2,
+                    "passengerId": "C1E43D640001",
+                    "recordLocator": "UNJIOD",
+                    "passengerName": "Ross, Van",
+                    "resultCode": 101,
+                    "title": "OK to Board",
+                    "message": "Paper ticket collected",
+                    "verification": {
+                        "verifiedById": "5064837",
+                        "verifiedByName": "Christian Isaacs",
+                        "verifiedOn": "2019-06-13T17:25:46.8893428Z"
+                    }
+                }
+            ],
+            "thruVerification": null,
+            "editCodes": {
+                "specialServiceRequests": [
+                    {
+                        "code": "PPOC",
+                        "priority": 17,
+                        "description": "Personal Portable Oxygen Concentrator"
+                    },
+                    {
+                        "code": "OTHS",
+                        "priority": 26,
+                        "description": "Other"
+                    }
+                ],
+                "ssrCodeDisplayMessage": "PPOC, OTHS",
+                "ssrDisplayMessage": null
+            },
+            "onboardCompanionSeats": null,
+            "sortBy": {
+                "elite": 4
+            },
+            "firstName": "VAN",
+            "lastName": "ROSS",
+            "seatAssignment": "6C",
+            "destinationCityCode": "DCA",
+            "groupCode": "AB2",
+            "inboundFlightInformation": null,
+            "boardingStatus": 0,
+            "atAirport": true,
+            "eliteStatus": null,
+            "passengerId": "C1E43D640001",
+            "boardingAcceptability": 1,
+            "recordLocator": "UNJIOD",
+            "recordNameAssociatedId": "1",
+            "displayName": "Ross, Van",
+            "segments": [
+                {
+                    "airline": "AS",
+                    "destination": "DCA",
+                    "flight": "2",
+                    "origin": "SEA",
+                    "localDepartureDateTime": "2019-06-13T13:45:00",
+                    "passengerId": "C1E43D640001",
+                    "segmentStatus": "MM",
+                    "segmentNumber": 1
+                }
+            ]
+        },
+        {
+            "advisories": [
+                {
+                    "advisoryType": 1,
+                    "flightNumber": 2,
+                    "passengerId": "C1E43D640002",
+                    "recordLocator": "UNJIOD",
+                    "passengerName": "Ross, Glenn",
+                    "resultCode": 201,
+                    "title": "No associated VCR",
+                    "message": "Collect paper ticket or check VCR",
+                    "verification": null
+                },
+                {
+                    "advisoryType": 3,
+                    "flightNumber": 2,
+                    "passengerId": "C1E43D640002",
+                    "recordLocator": "UNJIOD",
+                    "passengerName": "Ross, Glenn",
+                    "resultCode": 314,
+                    "title": "Guest Not Checked In",
+                    "message": "",
+                    "verification": null
+                },
+                {
+                    "advisoryType": 0,
+                    "flightNumber": 2,
+                    "passengerId": "C1E43D640002",
+                    "recordLocator": "UNJIOD",
+                    "passengerName": "Ross, Glenn",
+                    "resultCode": 106,
+                    "title": "Infant DOCS",
+                    "message": "Infant - Victoria Ross",
+                    "verification": null
+                }
+            ],
+            "thruVerification": null,
+            "editCodes": null,
+            "onboardCompanionSeats": null,
+            "sortBy": {
+                "elite": 4
+            },
+            "firstName": "GLENN",
+            "lastName": "ROSS",
+            "seatAssignment": null,
+            "destinationCityCode": "DCA",
+            "groupCode": "AB2",
+            "inboundFlightInformation": null,
+            "boardingStatus": 0,
+            "atAirport": true,
+            "eliteStatus": null,
+            "passengerId": "C1E43D640002",
+            "boardingAcceptability": 2,
+            "recordLocator": "UNJIOD",
+            "recordNameAssociatedId": "2",
+            "displayName": "Ross, Glenn",
+            "segments": [
+                {
+                    "airline": "AS",
+                    "destination": "DCA",
+                    "flight": "2",
+                    "origin": "SEA",
+                    "localDepartureDateTime": "2019-06-13T13:45:00",
+                    "passengerId": "C1E43D640002",
+                    "segmentStatus": "MM",
+                    "segmentNumber": 1
+                }
+            ]
+        },
+        {
+            "advisories": [
+                {
+                    "advisoryType": 1,
+                    "flightNumber": 2,
+                    "passengerId": "C2A6EE980001",
+                    "recordLocator": "VFOJDV",
+                    "passengerName": "Tester, Sasa",
+                    "resultCode": 201,
+                    "title": "No associated VCR",
+                    "message": "Collect paper ticket or check VCR",
+                    "verification": null
+                },
+                {
+                    "advisoryType": 3,
+                    "flightNumber": 2,
+                    "passengerId": "C2A6EE980001",
+                    "recordLocator": "VFOJDV",
+                    "passengerName": "Tester, Sasa",
+                    "resultCode": 314,
+                    "title": "Guest Not Checked In",
+                    "message": "",
+                    "verification": null
+                }
+            ],
+            "thruVerification": null,
+            "editCodes": null,
+            "onboardCompanionSeats": null,
+            "sortBy": {
+                "elite": 4
+            },
+            "firstName": "SASA",
+            "lastName": "TESTER",
+            "seatAssignment": "30A",
+            "destinationCityCode": "DCA",
+            "groupCode": null,
+            "inboundFlightInformation": null,
+            "boardingStatus": 0,
+            "atAirport": true,
+            "eliteStatus": null,
+            "passengerId": "C2A6EE980001",
+            "boardingAcceptability": 2,
+            "recordLocator": "VFOJDV",
+            "recordNameAssociatedId": "1",
+            "displayName": "Tester, Sasa",
+            "segments": [
+                {
+                    "airline": "AS",
+                    "destination": "DCA",
+                    "flight": "2",
+                    "origin": "SEA",
+                    "localDepartureDateTime": "2019-06-13T13:45:00",
+                    "passengerId": "C2A6EE980001",
+                    "segmentStatus": "HK",
+                    "segmentNumber": 1
+                }
+            ]
+        },
+        {
+            "advisories": [],
+            "thruVerification": null,
+            "editCodes": null,
+            "onboardCompanionSeats": null,
+            "sortBy": {
+                "elite": 4
+            },
+            "firstName": "WILLIAMEB",
+            "lastName": "TESTEREB",
+            "seatAssignment": "10A",
+            "destinationCityCode": "DCA",
+            "groupCode": null,
+            "inboundFlightInformation": null,
+            "boardingStatus": 1,
+            "atAirport": true,
+            "eliteStatus": null,
+            "passengerId": "C155352C0001",
+            "boardingAcceptability": 0,
+            "recordLocator": "TPKLJH",
+            "recordNameAssociatedId": "1",
+            "displayName": "Testereb, Williameb",
+            "segments": [
+                {
+                    "airline": "AS",
+                    "destination": "DCA",
+                    "flight": "2",
+                    "origin": "SEA",
+                    "localDepartureDateTime": "2019-06-13T13:45:00",
+                    "passengerId": "C155352C0001",
+                    "segmentStatus": "HK",
+                    "segmentNumber": 1
+                }
+            ]
+        },
+        {
+            "advisories": [],
+            "thruVerification": null,
+            "editCodes": null,
+            "onboardCompanionSeats": {
+                "seats": [
+                    "12E",
+                    "12F"
+                ],
+                "formattedDisplayValue": "12E, 12F"
+            },
+            "sortBy": {
+                "elite": 4
+            },
+            "firstName": "GARY",
+            "lastName": "THOMSON",
+            "seatAssignment": "12E",
+            "destinationCityCode": "DCA",
+            "groupCode": "AH2",
+            "inboundFlightInformation": null,
+            "boardingStatus": 2,
+            "atAirport": true,
+            "eliteStatus": null,
+            "passengerId": "C2918D070001",
+            "boardingAcceptability": 0,
+            "recordLocator": "GJAAVD",
+            "recordNameAssociatedId": "1",
+            "displayName": "Thomson, Gary",
+            "segments": [
+                {
+                    "airline": "AS",
+                    "destination": "DCA",
+                    "flight": "2",
+                    "origin": "SEA",
+                    "localDepartureDateTime": "2019-06-13T13:45:00",
+                    "passengerId": "C2918D070001",
+                    "segmentStatus": "HK",
+                    "segmentNumber": 1
+                }
+            ]
+        },
+        {
+            "advisories": [],
+            "thruVerification": null,
+            "editCodes": null,
+            "onboardCompanionSeats": {
+                "seats": [
+                    "12E",
+                    "12F"
+                ],
+                "formattedDisplayValue": "12E, 12F"
+            },
+            "sortBy": {
+                "elite": 4
+            },
+            "firstName": "VIRGINIA",
+            "lastName": "THOMSON",
+            "seatAssignment": "12F",
+            "destinationCityCode": "DCA",
+            "groupCode": "AH2",
+            "inboundFlightInformation": null,
+            "boardingStatus": 2,
+            "atAirport": true,
+            "eliteStatus": null,
+            "passengerId": "C2918D070002",
+            "boardingAcceptability": 0,
+            "recordLocator": "GJAAVD",
+            "recordNameAssociatedId": "2",
+            "displayName": "Thomson, Virginia",
+            "segments": [
+                {
+                    "airline": "AS",
+                    "destination": "DCA",
+                    "flight": "2",
+                    "origin": "SEA",
+                    "localDepartureDateTime": "2019-06-13T13:45:00",
+                    "passengerId": "C2918D070002",
+                    "segmentStatus": "HK",
+                    "segmentNumber": 1
+                }
+            ]
+        },
+        {
+            "advisories": [],
+            "thruVerification": null,
+            "editCodes": null,
+            "onboardCompanionSeats": null,
+            "sortBy": {
+                "elite": 4
+            },
+            "firstName": "Elizabeth",
+            "lastName": "Longbottom",
+            "seatAssignment": "11E",
+            "destinationCityCode": "DCA",
+            "groupCode": "AF2",
+            "inboundFlightInformation": null,
+            "boardingStatus": 1,
+            "atAirport": true,
+            "eliteStatus": null,
+            "passengerId": "C261E9CA0001",
+            "boardingAcceptability": 0,
+            "recordLocator": "MZWRAD",
+            "recordNameAssociatedId": "1",
+            "displayName": "Elizabeth, Longbottom",
+            "segments": [
+                {
+                    "airline": "AS",
+                    "destination": "DCA",
+                    "flight": "2",
+                    "origin": "SEA",
+                    "localDepartureDateTime": "2019-06-13T13:45:00",
+                    "passengerId": "C261E9CA0001",
+                    "segmentStatus": "HK",
+                    "segmentNumber": 1
+                }
+            ]
+        },
+        {
+            "advisories": [
+                {
+                    "advisoryType": 0,
+                    "flightNumber": 2,
+                    "passengerId": "C261E9CA0002",
+                    "recordLocator": "MZWRAD",
+                    "passengerName": "Train, Theresa",
+                    "resultCode": 106,
+                    "title": "Infant DOCS",
+                    "message": "Infant - Timothy Train",
+                    "verification": null
+                }
+            ],
+            "thruVerification": null,
+            "editCodes": null,
+            "onboardCompanionSeats": null,
+            "sortBy": {
+                "elite": 4
+            },
+            "firstName": "THERESA",
+            "lastName": "TRAIN",
+            "seatAssignment": "11F",
+            "destinationCityCode": "DCA",
+            "groupCode": "AF2",
+            "inboundFlightInformation": null,
+            "boardingStatus": 1,
+            "atAirport": true,
+            "eliteStatus": null,
+            "passengerId": "C261E9CA0002",
+            "boardingAcceptability": 1,
+            "recordLocator": "MZWRAD",
+            "recordNameAssociatedId": "2",
+            "displayName": "Train, Theresa",
+            "segments": [
+                {
+                    "airline": "AS",
+                    "destination": "DCA",
+                    "flight": "2",
+                    "origin": "SEA",
+                    "localDepartureDateTime": "2019-06-13T13:45:00",
+                    "passengerId": "C261E9CA0002",
+                    "segmentStatus": "HK",
+                    "segmentNumber": 1
+                }
+            ]
+        },
+        {
+            "advisories": [],
+            "thruVerification": null,
+            "editCodes": null,
+            "onboardCompanionSeats": {
+                "seats": [
+                    "12B"
+                ],
+                "formattedDisplayValue": "12B"
+            },
+            "sortBy": {
+                "elite": 4
+            },
+            "firstName": "THOMASK",
+            "lastName": "TRAINING",
+            "seatAssignment": "18B",
+            "destinationCityCode": "DCA",
+            "groupCode": "AG2",
+            "inboundFlightInformation": null,
+            "boardingStatus": 1,
+            "atAirport": true,
+            "eliteStatus": null,
+            "passengerId": "C261EF220001",
+            "boardingAcceptability": 0,
+            "recordLocator": "MZWUUM",
+            "recordNameAssociatedId": "1",
+            "displayName": "Training, Thomask",
+            "segments": [
+                {
+                    "airline": "AS",
+                    "destination": "DCA",
+                    "flight": "2",
+                    "origin": "SEA",
+                    "localDepartureDateTime": "2019-06-13T13:45:00",
+                    "passengerId": "C261EF220001",
+                    "segmentStatus": "HK",
+                    "segmentNumber": 1
+                }
+            ]
+        },
+        {
+            "advisories": [],
+            "thruVerification": null,
+            "editCodes": null,
+            "onboardCompanionSeats": {
+                "seats": [
+                    "12B"
+                ],
+                "formattedDisplayValue": "12B"
+            },
+            "sortBy": {
+                "elite": 4
+            },
+            "firstName": "THERESAL",
+            "lastName": "TRAINING",
+            "seatAssignment": "12B",
+            "destinationCityCode": "DCA",
+            "groupCode": "AG2",
+            "inboundFlightInformation": null,
+            "boardingStatus": 2,
+            "atAirport": true,
+            "eliteStatus": null,
+            "passengerId": "C261EF220002",
+            "boardingAcceptability": 0,
+            "recordLocator": "MZWUUM",
+            "recordNameAssociatedId": "2",
+            "displayName": "Training, Theresal",
+            "segments": [
+                {
+                    "airline": "AS",
+                    "destination": "DCA",
+                    "flight": "2",
+                    "origin": "SEA",
+                    "localDepartureDateTime": "2019-06-13T13:45:00",
+                    "passengerId": "C261EF220002",
+                    "segmentStatus": "HK",
+                    "segmentNumber": 1
+                }
+            ]
+        }
+    ],
+    "refreshInterval": 0,
+    "flightDetails": {
+        "aircraftCode": "73H"
+    }
+}

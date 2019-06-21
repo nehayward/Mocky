@@ -1,0 +1,6 @@
+framework module HTTPParserC {
+  umbrella header "HTTPParserC.h"
+
+  export *
+  module * { export * }
+}

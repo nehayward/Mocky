@@ -1,0 +1,11 @@
+framework module Telegraph {
+  umbrella header "Telegraph.h"
+
+  export *
+  module * { export * }
+}
+
+module Telegraph.Swift {
+    header "Telegraph-Swift.h"
+    requires objc
+}
