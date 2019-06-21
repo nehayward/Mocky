@@ -760,13 +760,13 @@
         <!--Split View Controller-->
         <scene sceneID="Oc3-XE-ORM">
             <objects>
-                <splitViewController id="pIO-LP-ZQc" sceneMemberID="viewController">
+                <splitViewController id="pIO-LP-ZQc" customClass="SplitViewController" customModule="Mocky" customModuleProvider="target" sceneMemberID="viewController">
                     <splitViewItems>
-                        <splitViewItem id="hdI-NX-5iP"/>
-                        <splitViewItem id="vNo-GJ-ild"/>
+                        <splitViewItem id="Cg3-Tv-gOR"/>
+                        <splitViewItem id="Zsm-R6-uqA"/>
                     </splitViewItems>
                     <splitView key="splitView" dividerStyle="thin" vertical="YES" id="WOQ-op-H0i">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="687" height="426"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <connections>
                             <outlet property="delegate" destination="pIO-LP-ZQc" id="7gU-2U-HTj"/>
@@ -774,26 +774,26 @@
                     </splitView>
                     <connections>
                         <outlet property="splitView" destination="WOQ-op-H0i" id="Oxm-JV-VGz"/>
-                        <segue destination="rvK-8q-Wr9" kind="relationship" relationship="splitItems" id="iFP-nM-ygQ"/>
-                        <segue destination="9MG-BH-KyO" kind="relationship" relationship="splitItems" id="9UK-8V-rLI"/>
+                        <segue destination="rvK-8q-Wr9" kind="relationship" relationship="splitItems" id="XO0-SX-Sf0"/>
+                        <segue destination="9MG-BH-KyO" kind="relationship" relationship="splitItems" id="Ris-L5-do9"/>
                     </connections>
                 </splitViewController>
                 <customObject id="8A2-mZ-jnD" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1258" y="763"/>
+            <point key="canvasLocation" x="-1266" y="822"/>
         </scene>
-        <!--View Controller-->
+        <!--Routes Table View Controller-->
         <scene sceneID="XQS-si-DT5">
             <objects>
-                <viewController id="rvK-8q-Wr9" sceneMemberID="viewController">
+                <viewController id="rvK-8q-Wr9" customClass="RoutesTableViewController" customModule="Mocky" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="7Hr-Ek-HpL">
-                        <rect key="frame" x="0.0" y="0.0" width="400" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="500" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </view>
                 </viewController>
                 <customObject id="0WH-1O-8Dm" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-700" y="579"/>
+            <point key="canvasLocation" x="-540" y="645"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5FL-m6-1ep">
@@ -964,7 +964,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="967"/>
+            <point key="canvasLocation" x="198" y="1053"/>
         </scene>
     </scenes>
 </document>
