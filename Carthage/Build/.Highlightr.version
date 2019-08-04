@@ -1,0 +1,10 @@
+{
+  "commitish" : "2.1.1",
+  "Mac" : [
+    {
+      "name" : "Highlightr",
+      "hash" : "c6aee97729dd05fb20bc9181a1dbc9da8a8f0abfdcf81696b9bfa77152fbbe1a",
+      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+    }
+  ]
+}

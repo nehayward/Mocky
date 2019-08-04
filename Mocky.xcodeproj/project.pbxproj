@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0151DD2B22BC48ED006B660C /* ToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0151DD2A22BC48ED006B660C /* ToolBar.swift */; };
+		0108605022F3A040005601F5 /* ca-crt.der in Resources */ = {isa = PBXBuildFile; fileRef = 0108604E22F39FE8005601F5 /* ca-crt.der */; };
+		0108605122F3A042005601F5 /* localhost.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 0108604F22F39FE9005601F5 /* localhost.p12 */; };
+		0124B25122D5062500C82308 /* Extension+NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0124B25022D5062500C82308 /* Extension+NSNotificationName.swift */; };
+		0134C0A022F77E3D006ADA66 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0134C09F22F77E3D006ADA66 /* Method.swift */; };
+		0134C0A222F77E4B006ADA66 /* StatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0134C0A122F77E4B006ADA66 /* StatusCode.swift */; };
+		0134C0A422F77E6E006ADA66 /* Extension+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0134C0A322F77E6E006ADA66 /* Extension+Data.swift */; };
+		0134C0A622F78340006ADA66 /* RouteDetailViewController+NSTextDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0134C0A522F78340006ADA66 /* RouteDetailViewController+NSTextDelegate.swift */; };
+		0134C0A822F78365006ADA66 /* RouteDetailViewController+NSTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0134C0A722F78365006ADA66 /* RouteDetailViewController+NSTextFieldDelegate.swift */; };
+		013E170122F2295000231785 /* RouteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E170022F2295000231785 /* RouteCell.swift */; };
+		0148FB9522C073ED00D6DC26 /* Hack-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0148FB9422C073ED00D6DC26 /* Hack-Regular.ttf */; };
+		0151DD2B22BC48ED006B660C /* Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0151DD2A22BC48ED006B660C /* Toolbar.swift */; };
 		015AFCE522BD48E4001BE62D /* RoutesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015AFCE422BD48E4001BE62D /* RoutesTableViewController.swift */; };
 		015AFCE722BD6FA3001BE62D /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015AFCE622BD6FA3001BE62D /* SplitViewController.swift */; };
 		015AFCEA22BD7264001BE62D /* RouteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015AFCE822BD7264001BE62D /* RouteDetailViewController.swift */; };
 		0166DE1A22B2FEBF008E23BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166DE1922B2FEBF008E23BC /* AppDelegate.swift */; };
-		0166DE1C22B2FEBF008E23BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166DE1B22B2FEBF008E23BC /* ViewController.swift */; };
 		0166DE1E22B2FEBF008E23BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0166DE1D22B2FEBF008E23BC /* Assets.xcassets */; };
 		0166DE2122B2FEBF008E23BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0166DE1F22B2FEBF008E23BC /* Main.storyboard */; };
 		0166DE3C22B2FF02008E23BC /* MockServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166DE3B22B2FF02008E23BC /* MockServer.swift */; };
-		0166DE4322B3004A008E23BC /* ca-crt.der in Resources */ = {isa = PBXBuildFile; fileRef = 0166DE3D22B2FF2A008E23BC /* ca-crt.der */; };
-		0166DE4922B302C5008E23BC /* localhost.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 0166DE4822B302C5008E23BC /* localhost.p12 */; };
-		0166DE4B22B30455008E23BC /* Configuration.json in Resources */ = {isa = PBXBuildFile; fileRef = 0166DE4A22B30454008E23BC /* Configuration.json */; };
-		0166DE4D22B30458008E23BC /* Guests.json in Resources */ = {isa = PBXBuildFile; fileRef = 0166DE4C22B30458008E23BC /* Guests.json */; };
-		0166DE4F22B3045B008E23BC /* Information.json in Resources */ = {isa = PBXBuildFile; fileRef = 0166DE4E22B3045B008E23BC /* Information.json */; };
-		0166DE5122B3045F008E23BC /* Staff.json in Resources */ = {isa = PBXBuildFile; fileRef = 0166DE5022B3045F008E23BC /* Staff.json */; };
+		01722CC922C28EDC00194174 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01722CC822C28EDC00194174 /* Route.swift */; };
+		01ABD04D22F4A7200005690B /* Hack-Regular.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0148FB9422C073ED00D6DC26 /* Hack-Regular.ttf */; };
+		01D79BDB22F5BE3B002E89D3 /* Hack-Regular.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0148FB9422C073ED00D6DC26 /* Hack-Regular.ttf */; };
+		01D79BE722F73BC3002E89D3 /* AppDelegate+MenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D79BE622F73BC3002E89D3 /* AppDelegate+MenuItems.swift */; };
+		01D79BEC22F74753002E89D3 /* Preferences.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01D79BE922F74753002E89D3 /* Preferences.storyboard */; };
+		01D79BED22F74753002E89D3 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D79BEA22F74753002E89D3 /* PreferencesViewController.swift */; };
+		01D79BEE22F74753002E89D3 /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D79BEB22F74753002E89D3 /* PreferencesWindowController.swift */; };
 		01ECEA6122BD385100027DD8 /* Telegraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01ECEA5E22BD385100027DD8 /* Telegraph.framework */; };
 		01ECEA6222BD385100027DD8 /* Telegraph.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01ECEA5E22BD385100027DD8 /* Telegraph.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		01ECEA6322BD385100027DD8 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01ECEA5F22BD385100027DD8 /* CocoaAsyncSocket.framework */; };
@@ -31,6 +41,10 @@
 		01ECEA6A22BD386500027DD8 /* CocoaAsyncSocket.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 01ECEA6722BD386400027DD8 /* CocoaAsyncSocket.framework.dSYM */; };
 		01ECEA6B22BD386500027DD8 /* HTTPParserC.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 01ECEA6822BD386500027DD8 /* HTTPParserC.framework.dSYM */; };
 		01ECEA6C22BD386500027DD8 /* Telegraph.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 01ECEA6922BD386500027DD8 /* Telegraph.framework.dSYM */; };
+		01F2502822F48EDA000124D0 /* simulatorList.sh in Resources */ = {isa = PBXBuildFile; fileRef = 01F2502722F48EDA000124D0 /* simulatorList.sh */; };
+		01F2502B22F49084000124D0 /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F2502A22F49084000124D0 /* Simulator.swift */; };
+		01F2502D22F49422000124D0 /* generateSimulator.sh in Resources */ = {isa = PBXBuildFile; fileRef = 01F2502C22F49422000124D0 /* generateSimulator.sh */; };
+		01F2502F22F498DA000124D0 /* Keychains in Resources */ = {isa = PBXBuildFile; fileRef = 01F2502E22F498DA000124D0 /* Keychains */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +54,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				01ABD04D22F4A7200005690B /* Hack-Regular.ttf in CopyFiles */,
 				01ECEA6A22BD386500027DD8 /* CocoaAsyncSocket.framework.dSYM in CopyFiles */,
 				01ECEA6B22BD386500027DD8 /* HTTPParserC.framework.dSYM in CopyFiles */,
 				01ECEA6C22BD386500027DD8 /* Telegraph.framework.dSYM in CopyFiles */,
@@ -59,33 +74,55 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		01D79BDA22F5BE21002E89D3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Fonts;
+			dstSubfolderSpec = 7;
+			files = (
+				01D79BDB22F5BE3B002E89D3 /* Hack-Regular.ttf in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0151DD2A22BC48ED006B660C /* ToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBar.swift; sourceTree = "<group>"; };
+		0108604E22F39FE8005601F5 /* ca-crt.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ca-crt.der"; sourceTree = "<group>"; };
+		0108604F22F39FE9005601F5 /* localhost.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = localhost.p12; sourceTree = "<group>"; };
+		0124B25022D5062500C82308 /* Extension+NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+NSNotificationName.swift"; sourceTree = "<group>"; };
+		0134C09F22F77E3D006ADA66 /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		0134C0A122F77E4B006ADA66 /* StatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCode.swift; sourceTree = "<group>"; };
+		0134C0A322F77E6E006ADA66 /* Extension+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Data.swift"; sourceTree = "<group>"; };
+		0134C0A522F78340006ADA66 /* RouteDetailViewController+NSTextDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RouteDetailViewController+NSTextDelegate.swift"; sourceTree = "<group>"; };
+		0134C0A722F78365006ADA66 /* RouteDetailViewController+NSTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RouteDetailViewController+NSTextFieldDelegate.swift"; sourceTree = "<group>"; };
+		013E170022F2295000231785 /* RouteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteCell.swift; sourceTree = "<group>"; };
+		0148FB9422C073ED00D6DC26 /* Hack-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hack-Regular.ttf"; sourceTree = "<group>"; };
+		0151DD2A22BC48ED006B660C /* Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar.swift; sourceTree = "<group>"; };
 		015AFCE422BD48E4001BE62D /* RoutesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesTableViewController.swift; sourceTree = "<group>"; };
 		015AFCE622BD6FA3001BE62D /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
 		015AFCE822BD7264001BE62D /* RouteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailViewController.swift; sourceTree = "<group>"; };
 		0166DE1622B2FEBF008E23BC /* Mocky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mocky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0166DE1922B2FEBF008E23BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0166DE1B22B2FEBF008E23BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0166DE1D22B2FEBF008E23BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0166DE2022B2FEBF008E23BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0166DE2222B2FEBF008E23BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0166DE2322B2FEBF008E23BC /* Mocky.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mocky.entitlements; sourceTree = "<group>"; };
 		0166DE3B22B2FF02008E23BC /* MockServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServer.swift; sourceTree = "<group>"; };
-		0166DE3D22B2FF2A008E23BC /* ca-crt.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ca-crt.der"; sourceTree = "<group>"; };
-		0166DE4822B302C5008E23BC /* localhost.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = localhost.p12; sourceTree = "<group>"; };
-		0166DE4A22B30454008E23BC /* Configuration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Configuration.json; sourceTree = "<group>"; };
-		0166DE4C22B30458008E23BC /* Guests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Guests.json; sourceTree = "<group>"; };
-		0166DE4E22B3045B008E23BC /* Information.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Information.json; sourceTree = "<group>"; };
-		0166DE5022B3045F008E23BC /* Staff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Staff.json; sourceTree = "<group>"; };
+		01722CC822C28EDC00194174 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		01D79BE622F73BC3002E89D3 /* AppDelegate+MenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+MenuItems.swift"; sourceTree = "<group>"; };
+		01D79BE922F74753002E89D3 /* Preferences.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Preferences.storyboard; sourceTree = "<group>"; };
+		01D79BEA22F74753002E89D3 /* PreferencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		01D79BEB22F74753002E89D3 /* PreferencesWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesWindowController.swift; sourceTree = "<group>"; };
 		01ECEA5E22BD385100027DD8 /* Telegraph.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Telegraph.framework; path = Carthage/Build/Mac/Telegraph.framework; sourceTree = "<group>"; };
 		01ECEA5F22BD385100027DD8 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/Mac/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
 		01ECEA6022BD385100027DD8 /* HTTPParserC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HTTPParserC.framework; path = Carthage/Build/Mac/HTTPParserC.framework; sourceTree = "<group>"; };
 		01ECEA6722BD386400027DD8 /* CocoaAsyncSocket.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = CocoaAsyncSocket.framework.dSYM; path = Carthage/Build/Mac/CocoaAsyncSocket.framework.dSYM; sourceTree = "<group>"; };
 		01ECEA6822BD386500027DD8 /* HTTPParserC.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = HTTPParserC.framework.dSYM; path = Carthage/Build/Mac/HTTPParserC.framework.dSYM; sourceTree = "<group>"; };
 		01ECEA6922BD386500027DD8 /* Telegraph.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Telegraph.framework.dSYM; path = Carthage/Build/Mac/Telegraph.framework.dSYM; sourceTree = "<group>"; };
+		01F2502722F48EDA000124D0 /* simulatorList.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = simulatorList.sh; sourceTree = "<group>"; };
+		01F2502A22F49084000124D0 /* Simulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulator.swift; sourceTree = "<group>"; };
+		01F2502C22F49422000124D0 /* generateSimulator.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = generateSimulator.sh; sourceTree = "<group>"; };
+		01F2502E22F498DA000124D0 /* Keychains */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Keychains; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +139,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0124B24F22D505F600C82308 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0148FB9422C073ED00D6DC26 /* Hack-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0134C09D22F77DEB006ADA66 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0124B25022D5062500C82308 /* Extension+NSNotificationName.swift */,
+				0134C0A322F77E6E006ADA66 /* Extension+Data.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0134C09E22F77E00006ADA66 /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				015AFCE422BD48E4001BE62D /* RoutesTableViewController.swift */,
+				013E170022F2295000231785 /* RouteCell.swift */,
+				015AFCE822BD7264001BE62D /* RouteDetailViewController.swift */,
+				0134C0A522F78340006ADA66 /* RouteDetailViewController+NSTextDelegate.swift */,
+				0134C0A722F78365006ADA66 /* RouteDetailViewController+NSTextFieldDelegate.swift */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
 		0166DE0D22B2FEBF008E23BC = {
 			isa = PBXGroup;
 			children = (
@@ -122,41 +188,53 @@
 		0166DE1822B2FEBF008E23BC /* Mocky */ = {
 			isa = PBXGroup;
 			children = (
-				0178980722BD369F00C5BE14 /* Certs */,
-				0178980822BD36AD00C5BE14 /* Mock Data */,
+				01D79BE822F74743002E89D3 /* Preferences */,
 				0166DE1922B2FEBF008E23BC /* AppDelegate.swift */,
-				0151DD2A22BC48ED006B660C /* ToolBar.swift */,
-				0166DE1B22B2FEBF008E23BC /* ViewController.swift */,
-				015AFCE822BD7264001BE62D /* RouteDetailViewController.swift */,
+				01D79BE622F73BC3002E89D3 /* AppDelegate+MenuItems.swift */,
+				0151DD2A22BC48ED006B660C /* Toolbar.swift */,
 				015AFCE622BD6FA3001BE62D /* SplitViewController.swift */,
-				015AFCE422BD48E4001BE62D /* RoutesTableViewController.swift */,
+				0134C09E22F77E00006ADA66 /* Routes */,
+				01D79BEF22F7559F002E89D3 /* Models */,
 				0166DE3B22B2FF02008E23BC /* MockServer.swift */,
+				0134C09D22F77DEB006ADA66 /* Extensions */,
 				0166DE1D22B2FEBF008E23BC /* Assets.xcassets */,
 				0166DE1F22B2FEBF008E23BC /* Main.storyboard */,
+				0124B24F22D505F600C82308 /* Fonts */,
+				0178980722BD369F00C5BE14 /* Certificates */,
+				01F2502922F49074000124D0 /* Simulators */,
 				0166DE2222B2FEBF008E23BC /* Info.plist */,
 				0166DE2322B2FEBF008E23BC /* Mocky.entitlements */,
 			);
 			path = Mocky;
 			sourceTree = "<group>";
 		};
-		0178980722BD369F00C5BE14 /* Certs */ = {
+		0178980722BD369F00C5BE14 /* Certificates */ = {
 			isa = PBXGroup;
 			children = (
-				0166DE3D22B2FF2A008E23BC /* ca-crt.der */,
-				0166DE4822B302C5008E23BC /* localhost.p12 */,
+				0108604E22F39FE8005601F5 /* ca-crt.der */,
+				0108604F22F39FE9005601F5 /* localhost.p12 */,
 			);
-			path = Certs;
+			path = Certificates;
 			sourceTree = "<group>";
 		};
-		0178980822BD36AD00C5BE14 /* Mock Data */ = {
+		01D79BE822F74743002E89D3 /* Preferences */ = {
 			isa = PBXGroup;
 			children = (
-				0166DE4A22B30454008E23BC /* Configuration.json */,
-				0166DE4C22B30458008E23BC /* Guests.json */,
-				0166DE4E22B3045B008E23BC /* Information.json */,
-				0166DE5022B3045F008E23BC /* Staff.json */,
+				01D79BE922F74753002E89D3 /* Preferences.storyboard */,
+				01D79BEA22F74753002E89D3 /* PreferencesViewController.swift */,
+				01D79BEB22F74753002E89D3 /* PreferencesWindowController.swift */,
 			);
-			path = "Mock Data";
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		01D79BEF22F7559F002E89D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01722CC822C28EDC00194174 /* Route.swift */,
+				0134C09F22F77E3D006ADA66 /* Method.swift */,
+				0134C0A122F77E4B006ADA66 /* StatusCode.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		01ECEA5D22BD385100027DD8 /* Frameworks */ = {
@@ -172,6 +250,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		01F2502922F49074000124D0 /* Simulators */ = {
+			isa = PBXGroup;
+			children = (
+				01F2502E22F498DA000124D0 /* Keychains */,
+				01F2502C22F49422000124D0 /* generateSimulator.sh */,
+				01F2502722F48EDA000124D0 /* simulatorList.sh */,
+				01F2502A22F49084000124D0 /* Simulator.swift */,
+			);
+			path = Simulators;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -184,12 +273,15 @@
 				0166DE1422B2FEBF008E23BC /* Resources */,
 				0166DE3422B2FEDD008E23BC /* CopyFiles */,
 				0178981522BD376F00C5BE14 /* Embed Frameworks */,
+				01D79BDA22F5BE21002E89D3 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Mocky;
+			packageProductDependencies = (
+			);
 			productName = Mocky;
 			productReference = 0166DE1622B2FEBF008E23BC /* Mocky.app */;
 			productType = "com.apple.product-type.application";
@@ -207,8 +299,14 @@
 					0166DE1522B2FEBF008E23BC = {
 						CreatedOnToolsVersion = 10.2.1;
 						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
 							com.apple.Sandbox = {
 								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
 							};
 						};
 					};
@@ -223,6 +321,8 @@
 				Base,
 			);
 			mainGroup = 0166DE0D22B2FEBF008E23BC;
+			packageReferences = (
+			);
 			productRefGroup = 0166DE1722B2FEBF008E23BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -238,12 +338,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0166DE1E22B2FEBF008E23BC /* Assets.xcassets in Resources */,
-				0166DE4322B3004A008E23BC /* ca-crt.der in Resources */,
-				0166DE4922B302C5008E23BC /* localhost.p12 in Resources */,
-				0166DE4B22B30455008E23BC /* Configuration.json in Resources */,
-				0166DE4D22B30458008E23BC /* Guests.json in Resources */,
-				0166DE5122B3045F008E23BC /* Staff.json in Resources */,
-				0166DE4F22B3045B008E23BC /* Information.json in Resources */,
+				01F2502822F48EDA000124D0 /* simulatorList.sh in Resources */,
+				0108605122F3A042005601F5 /* localhost.p12 in Resources */,
+				0148FB9522C073ED00D6DC26 /* Hack-Regular.ttf in Resources */,
+				01F2502D22F49422000124D0 /* generateSimulator.sh in Resources */,
+				01F2502F22F498DA000124D0 /* Keychains in Resources */,
+				01D79BEC22F74753002E89D3 /* Preferences.storyboard in Resources */,
+				0108605022F3A040005601F5 /* ca-crt.der in Resources */,
 				0166DE2122B2FEBF008E23BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,13 +356,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F2502B22F49084000124D0 /* Simulator.swift in Sources */,
 				0166DE3C22B2FF02008E23BC /* MockServer.swift in Sources */,
-				0166DE1C22B2FEBF008E23BC /* ViewController.swift in Sources */,
 				0166DE1A22B2FEBF008E23BC /* AppDelegate.swift in Sources */,
 				015AFCEA22BD7264001BE62D /* RouteDetailViewController.swift in Sources */,
-				0151DD2B22BC48ED006B660C /* ToolBar.swift in Sources */,
+				01D79BED22F74753002E89D3 /* PreferencesViewController.swift in Sources */,
+				0134C0A022F77E3D006ADA66 /* Method.swift in Sources */,
+				0134C0A422F77E6E006ADA66 /* Extension+Data.swift in Sources */,
+				0151DD2B22BC48ED006B660C /* Toolbar.swift in Sources */,
+				01722CC922C28EDC00194174 /* Route.swift in Sources */,
 				015AFCE522BD48E4001BE62D /* RoutesTableViewController.swift in Sources */,
+				0134C0A622F78340006ADA66 /* RouteDetailViewController+NSTextDelegate.swift in Sources */,
+				0124B25122D5062500C82308 /* Extension+NSNotificationName.swift in Sources */,
+				0134C0A222F77E4B006ADA66 /* StatusCode.swift in Sources */,
+				01D79BE722F73BC3002E89D3 /* AppDelegate+MenuItems.swift in Sources */,
+				01D79BEE22F74753002E89D3 /* PreferencesWindowController.swift in Sources */,
 				015AFCE722BD6FA3001BE62D /* SplitViewController.swift in Sources */,
+				0134C0A822F78365006ADA66 /* RouteDetailViewController+NSTextFieldDelegate.swift in Sources */,
+				013E170122F2295000231785 /* RouteCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +511,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Mocky/Mocky.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = CU49YR9KXZ;
@@ -415,6 +528,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nick.Mocky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -424,6 +538,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Mocky/Mocky.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = CU49YR9KXZ;
@@ -440,6 +555,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nick.Mocky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

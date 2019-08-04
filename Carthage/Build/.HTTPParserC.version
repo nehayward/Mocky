@@ -1,9 +1,9 @@
 {
-  "commitish" : "2.9.0",
+  "commitish" : "2.9.2",
   "Mac" : [
     {
       "name" : "HTTPParserC",
-      "hash" : "2c6a48a45dc24db82dca02a5eb8e7c5dd6c82631aa4d507440ea37b047392f53"
+      "hash" : "6c359bc8786ce8b25d6324fd48e66897cf603d05824cf2cec2c75609a2fbedb9"
     }
   ]
 }

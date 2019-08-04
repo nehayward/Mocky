@@ -9,61 +9,57 @@
 import Foundation
 import Telegraph
 
-class TelegraphStub {
+class MockServer {
     
-    var server: Server?
-    var routes: [HTTPRoute] = []
+    private var server: Server?
+    private var routes: [HTTPRoute] = []
     
-    func setUp() {
+    init() {
+        NotificationCenter.default.addObserver(self, selector: #selector(restartServer), name: .RestartServer, object: nil)
+    }
+    
+    func start(port: Int = 443) {
         let caCertificateURL = Bundle.main.url(forResource: "ca-crt", withExtension: "der")!
         let caCertificate = Certificate(derURL: caCertificateURL)!
         
         let identityURL = Bundle.main.url(forResource: "localhost", withExtension: "p12")!
-        let identity = CertificateIdentity(p12URL: identityURL, passphrase: "development")!
-       
+        let identity = CertificateIdentity(p12URL: identityURL, passphrase: "mocky")!
+        
         server = Server(identity: identity, caCertificates: [caCertificate])
-        
-        server?.route(.GET, "/aag/1/boardingAgent/flights/information", handle)
-        server?.route(.GET, "/aag/1/boardingAgent/flights/guests", handle)
-        server?.route(.GET, "/aag/1/boardingAgent/flights/staff", handle)
-        server?.route(.GET, "/aag/1/boardingAgent/app/configuration", handle)
-        
-        
-        try! server?.start(port: 443)
+
+        try! server?.start(port: port, interface: nil)
     }
     
-    func tearDown() {
+    func stop(){
         server?.stop()
     }
     
-    func handle(request: HTTPRequest) -> HTTPResponse {
-        let fileName = request.uri.path.split(separator: "/").last?.capitalized
-        let testBundle = Bundle(for: type(of: self))
-        let filePath = testBundle.path(forResource: fileName, ofType: "json")
-        let fileUrl = URL(fileURLWithPath: filePath!)
-        let data = try! Data(contentsOf: fileUrl, options: .uncached)
-        
-        return HTTPResponse(body: data)
-    }
-    
-    func dataToJSON(data: Data) -> Any? {
-        do {
-            return try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
-        } catch let myJSONError {
-            print(myJSONError)
+    @objc private func restartServer() {
+        guard let server = server else { return }
+        if !server.isRunning {
+            return
         }
-        return nil
-    }
-    
-    public func handleFile(url: URL, request: HTTPRequest) -> HTTPResponse {
-        let data = try! Data(contentsOf: url, options: .uncached)
         
-        return HTTPResponse(body: data)
+        server.stop()
+        self.server = nil
+        start()
     }
     
-    func updateRoutes(){
+    func update(with routes: [Route]) {
         for route in routes {
-            server?.route(route)
+            let method = HTTPMethod(stringLiteral: route.method.rawValue)
+            server?.route(method, route.path, response: { () -> HTTPResponse in
+        
+                sleep(UInt32(route.delay))
+                
+                let data = route.response.data(using: .utf8)!
+                let httpStatus = HTTPStatus(code: route.statusCode.rawValue, phrase: "")
+                let httpVersion = HTTPVersion(major: 1, minor: 0)
+                let httpHeaders = HTTPHeaders()
+                let response = HTTPResponse(httpStatus, version: httpVersion, headers: httpHeaders, body: data)
+                
+                return response
+            })
         }
     }
 }

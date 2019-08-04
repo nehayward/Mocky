@@ -1,8 +1,0 @@
-{
-    "featureFlags": {
-        "boardingPassScanning": false,
-        "bagTagScanning": false,
-        "bagTagPrinting": false,
-        "boardingGIDS": false
-    }
-}

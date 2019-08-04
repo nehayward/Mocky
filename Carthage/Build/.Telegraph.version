@@ -1,9 +1,9 @@
 {
-  "commitish" : "0.25",
+  "commitish" : "0.26",
   "Mac" : [
     {
       "name" : "Telegraph",
-      "hash" : "58e76a7e257bee13cbef3583a89450dba86498b147ec279bace155b2713cf3b1",
+      "hash" : "a90d04ad203e5a86eb7f833c10c035a8e809c96cf28d74c46d589402551fe1b0",
       "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
     }
   ]
