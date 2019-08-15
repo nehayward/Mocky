@@ -59,7 +59,8 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="File" id="bib-Uj-vzu">
                                     <items>
-                                        <menuItem title="New" keyEquivalent="n" id="Was-JA-tGl">
+                                        <menuItem title="New" id="Was-JA-tGl">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="newDocument:" target="Ady-hI-5gd" id="4Si-XN-c54"/>
                                             </connections>
@@ -340,6 +341,11 @@
                                         <menuItem title="Start" keyEquivalent="r" id="nxf-vP-Jvf" userLabel="Stop Sever">
                                             <connections>
                                                 <action selector="startServer:" target="Voe-Tx-rLC" id="Pxe-Oh-nI4"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="New Route" keyEquivalent="n" id="X8e-vO-jjp" userLabel="Stop Sever">
+                                            <connections>
+                                                <action selector="newRoute:" target="Voe-Tx-rLC" id="Vdd-hy-jgH"/>
                                             </connections>
                                         </menuItem>
                                     </items>

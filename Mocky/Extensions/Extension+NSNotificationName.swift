@@ -12,6 +12,11 @@ extension NSNotification.Name {
     static let StartServer = NSNotification.Name("Mocky.StartServer")
     static let StopServer = NSNotification.Name("Mocky.StopServer")
     static let RestartServer = NSNotification.Name("Mocky.RestartServer")
+    
     static let UpdateRoutes = NSNotification.Name("Mocky.UpdateRoutes")
     static let SaveRoutes = NSNotification.Name("Mocky.SaveRoutes")
+    static let NewRoute = NSNotification.Name("Mocky.NewRoute")
+
+    
+    static let AppleInterfaceThemeChangedNotification = Notification.Name("AppleInterfaceThemeChangedNotification")
 }

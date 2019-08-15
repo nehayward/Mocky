@@ -62,4 +62,8 @@ extension AppDelegate {
             
         }
     }
+    
+    @IBAction func newRoute(_ sender: Any){
+        NotificationCenter.default.post(name: .NewRoute, object: nil)
+    }
 }

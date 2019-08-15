@@ -42,6 +42,7 @@ class AddButton: NSViewController {
         plusButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         plusButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10).isActive = true
         
+        NotificationCenter.default.addObserver(self, selector: #selector(buttonClicked), name: .NewRoute, object: nil)
     }
     
     
